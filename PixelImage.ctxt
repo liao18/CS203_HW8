@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=bi
+comment0.target=PixelImage(java.awt.image.BufferedImage)
+comment0.text=\r\n\ PixelImage\r\n\ maps\ a\ real\ image\ to\ a\ PixelImage\ object\r\n\ @param\ bi\ The\ buffered\ image\ object\ used\ to\r\n\ create\ the\ PixelImageObject\r\n
+comment1.params=
+comment1.target=int\ getWidth()
+comment1.text=\r\n\ getWidth\r\n\ Returns\ the\ width\ of\ the\ image\r\n\ @return\ image\ width\r\n
+comment2.params=
+comment2.target=int\ getHeight()
+comment2.text=\r\n\ getHeight\r\n\ Returns\ the\ height\ of\ the\ image\r\n\ @return\ image\ height\r\n
+comment3.params=
+comment3.target=java.awt.image.BufferedImage\ getImage()
+comment3.text=\r\n\ getImage\r\n\ Returns\ the\ buffered\ image\r\n\ @return\ buffered\ image\r\n
+comment4.params=
+comment4.target=void\ initializePixels()
+comment4.text=\ \r\n\ initializePixels\r\n\ initializes\ pixels\ based\ on\ information\r\n\ in\ the\ buffered\ image\r\n
+comment5.params=
+comment5.target=Pixel[][]\ getData()
+comment5.text=\r\n\ getData\r\n\ Return\ the\ image's\ pixel\ data\ as\ an\ array\ of\ Pixels.\ \ The\r\n\ first\ coordinate\ is\ the\ x-coordinate,\ so\ the\ size\ of\ the\ \r\n\ array\ is\ [width][height],\ where\ width\ and\ height\ are\ the\ \r\n\ dimensions\ of\ the\ array\r\n\ @return\ The\ array\ of\ pixels\r\n
+comment6.params=data
+comment6.target=void\ setData(Pixel[][])
+comment6.text=\r\n\ setData\r\n\ Sets\ the\ image's\ pixel\ data\ from\ an\ array.\ \ This\ array\ matches\r\n\ that\ returned\ by\ getData().\ \ It\ is\ an\ error\ to\ pass\ in\ an\r\n\ array\ that\ does\ not\ match\ the\ image's\ dimensions\ or\ that\r\n\ has\ pixels\ with\ invalid\ values\ (not\ 0-255)\r\n\ @param\ data\ \ \ A\ 2-dimensional\ array\ of\ Pixels\r\n
+numComments=7

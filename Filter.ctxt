@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=theImage
+comment0.target=void\ filter(PixelImage)
+comment0.text=\r\n\ Modify\ the\ image\ according\ to\ your\ algorithm\r\n\ \r\n\ @param\ \ theImage\ \ \ \ The\ image\ to\ modify\r\n
+numComments=1
